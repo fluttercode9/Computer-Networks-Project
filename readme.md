@@ -25,8 +25,8 @@ I used public IP addresses from the [website](https://42.pl/pl/networks.html?htm
 * mask:255.255.252.0
 * min:91.236.84.1
 * max:91.236.87.254
-* hosts_max:1022
-Network| ip  | mask  | min  |  max | hosts_max  |
+* hosts_max:1022  
+|Network| ip  | mask  | min  |  max | hosts_max  |
 |---|---|---|---|---|---|
 |  91.236.84.0/22 |255.255.252.0   | 91.236.84.1  | 91.236.87.254  | 1022  |
 |   |   |   |   |   |
