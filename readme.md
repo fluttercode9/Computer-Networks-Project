@@ -73,6 +73,11 @@ Router2 ip_2:10.0.0.5  ------- Router2 ip_1:10.0.0.6
 ## Routing Tables
 
 ### Router1:
+| zachowanie                    | polecenia               | komentarz                |
+| -------------                 |:-------------:            | -----:                    |
+| porzucanie dzierżawy adresu v1|  |          |
+| porzucanie dzierżawy adresu v2|  |          |
+
 
 dest--------------------gw  
 185.33.36.0/22  - 10.0.0.2  
