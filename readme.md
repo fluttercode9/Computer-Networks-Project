@@ -3,6 +3,9 @@
 The organization plans to start operations in 3 buildings, each of them provides up to 1000 IP devices.
 
 1. Design and document a solution prototype using the software  CISCO Packet Tracer.
+  * Addresses of individual IP networks
+  * Link addressing between routers
+  * Routing tables on individual routers
 
 # Scheme
 
@@ -10,9 +13,7 @@ The organization plans to start operations in 3 buildings, each of them provides
 
 # Solution:
 
- * Adresy poszczególnych sieci IP
- * Adresację linków pomiędzy routerami
- * Tablice routingów na poszczególnych routerach
+ 
 
 I used public IP addresses from the [website](https://42.pl/pl/networks.html?html=1) to address individual networks. Each network is able to handle 1022 usable ip addresses.
 
