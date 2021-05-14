@@ -1,3 +1,8 @@
+---
+title: Computer Networks Project
+author: Krzysztof Górski
+date: 14.05.2021
+---
 # Task 1:
 
 The organization plans to start operations in 3 buildings, each of them provides up to 1000 IP devices.
