@@ -1,4 +1,17 @@
-# Charakterystyka:
+## Wymagania
+W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zasoby. Do tej pory organizacja borykała się z ręczna konfiguracją urządzeń oraz adresami IP które dla ludzi z poza kadry technicznej były niezrozumiałe. Postanowiono:
+
+Wykorzystać usługę DHCP do nadawania adresów w sposób automatyczny dla wszystkich stacji roboczych
+Serwer oraz durządzenia IP tj: drukarka muszą posiadać stałe adresy celem zminimalizowanai potrzeby rekonfiguracji ustawiań klientów
+Wprowadzić translację pomiędzy Adresami IP oraz nazwami domenowymi dla kluczowych zasobów
+erp.mojaorganizacja.pl
+drukarka.mojaorganizacja.pl
+router.mojaorganizacja.pl
+Wszystkie urządzenia łączą się z siecią internet z wykorzystaniem bramy NAT
+Wykorzystać podsieć rozmiaru /22 pozwalającej zaadresować co najmniej 600 urządzeń
+
+
+# rozwiązanie:
 
 Do rozwiązania problemu organizacji wykorzystałem usługę DNS, bramę NAT, serwer DHCP zainstalowane na jednym urządzeniu, które pełni też funkcję routera. Symulację tego rozwiązania przeprowadziłem w oprogramowaniu Virtualbox na systemie operacyjnym Alpine Linux. Od teraz każde nowe urządzenie automatycznie otrzyma adres IP w tej sieci, połączy się z siecią WAN za pomocą bramy NAT oraz uzyska dostęp do drukarki, erp i routera poprzez nazwę domeny (DNS). 
 
